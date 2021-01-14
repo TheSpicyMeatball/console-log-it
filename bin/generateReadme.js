@@ -169,7 +169,7 @@ const generateTable = (util, packageName) => {
     examples = `
 
 \`\`\`    
-${util.example.map(x => x.value).join('\n')}
+${util.example.map(x => x.value).join('\n\n')}
 \`\`\`
 
 ${examples}

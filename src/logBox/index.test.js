@@ -34,21 +34,21 @@ describe('logBox', () => {
   
   test('multiline', () => {
     console.log = jest.fn();
-    logBox()(['Test box', 'Another line']);
+    logBox()('Test box', 'Another line');
     expect(console.log).toHaveBeenNthCalledWith(1, colorNoResetMap.get('cyan'), '\n╭────────────────╮', '\n│  Test box      │', '\n│  Another line  │', '\n╰────────────────╯\n', reset);
     jest.clearAllMocks();
   });
 
   test('multiline => long line first', () => {
     console.log = jest.fn();
-    logBox()(['Another line', 'Test box']);
+    logBox()('Another line', 'Test box');
     expect(console.log).toHaveBeenNthCalledWith(1, colorNoResetMap.get('cyan'), '\n╭────────────────╮', '\n│  Another line  │', '\n│  Test box      │', '\n╰────────────────╯\n', reset);
     jest.clearAllMocks();
   });
 
   test('LogBoxLine', () => {
     console.log = jest.fn();
-    logBox()([{ color: 'red', message: 'Test box' }, { color: 'green', message: 'Another line' }]);
+    logBox()({ color: 'red', message: 'Test box' }, { color: 'green', message: 'Another line' });
     expect(console.log).toHaveBeenNthCalledWith(1, colorNoResetMap.get('cyan'), '\n╭────────────────╮', `\n│  ${colorNoResetMap.get('red')}Test box${colorNoResetMap.get('cyan')}      │`, `\n│  ${colorNoResetMap.get('green')}Another line${colorNoResetMap.get('cyan')}  │`, '\n╰────────────────╯\n', reset);
     jest.clearAllMocks();
   });

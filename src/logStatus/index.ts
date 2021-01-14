@@ -10,7 +10,8 @@ import { CustomStatusConfig } from '../types';
  * @example
  * const deprecated = logStatus({
  *   tagColor: 'magenta',
- *   tagMessage: 'Deprecated' });
+ *   tagMessage: 'Deprecated',
+ * });
  * 
  * deprecated('This is a custom status tag to tell you something is deprecated');
  * @docgen_types

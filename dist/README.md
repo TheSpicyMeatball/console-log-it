@@ -7,7 +7,7 @@
 
 > Console log colors, boxes, and more for the browser and terminal
 
-<p><b>Version:</b> 0.0.2</p>
+<p><b>Version:</b> 0.0.3</p>
 
 <h2>Summary of Utils</h2>
 
@@ -88,8 +88,8 @@ README.md -- this file
       └───index.d.ts - 430 Bytes
       └───index.js - 1.48 KB
     └───/logBox
-      └───index.d.ts - 1.04 KB
-      └───index.js - 4.53 KB
+      └───index.d.ts - 1.33 KB
+      └───index.js - 4.87 KB
     └───/logDebug
       └───index.d.ts - 519 Bytes
       └───index.js - 806 Bytes
@@ -100,7 +100,7 @@ README.md -- this file
       └───index.d.ts - 560 Bytes
       └───index.js - 1.12 KB
     └───/logStatus
-      └───index.d.ts - 755 Bytes
+      └───index.d.ts - 760 Bytes
       └───index.js - 1.61 KB
     └───/logStyle
       └───index.d.ts - 926 Bytes
@@ -121,8 +121,8 @@ README.md -- this file
       └───index.d.ts - 430 Bytes
       └───index.js - 324 Bytes
     └───/logBox
-      └───index.d.ts - 1.04 KB
-      └───index.js - 4.39 KB
+      └───index.d.ts - 1.33 KB
+      └───index.js - 4.73 KB
     └───/logDebug
       └───index.d.ts - 519 Bytes
       └───index.js - 676 Bytes
@@ -133,7 +133,7 @@ README.md -- this file
       └───index.d.ts - 560 Bytes
       └───index.js - 1002 Bytes
     └───/logStatus
-      └───index.d.ts - 755 Bytes
+      └───index.d.ts - 760 Bytes
       └───index.js - 1.47 KB
     └───/logStyle
       └───index.d.ts - 926 Bytes

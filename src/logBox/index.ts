@@ -6,13 +6,22 @@ import { LogBoxConfig, LogBoxLine } from '../types';
  * 
  * @since v0.0.1
  * @param {LogBoxConfig} [config] - The configuration for the box
- * @returns {(message: string[] | string | LogBoxLine[]) => void}
+ * @returns {(...lines: Array<string | LogBoxLine>) => void}
  * @example
- * logBox()('Box Message Goes Here');
- * 
- * ╭─────────────────────────╮
- * │  Box Message Goes Here  │
- * ╰─────────────────────────╯
+ * logBox()('I\'m in a box!');
+ * @example
+ * logBox({ color: 'magenta' })('I\'m in a magenta box!');
+ * @example
+ * logBox({ padding: 10, symbol: '-' })('I\'ve got 10 spaces of padding in a box with a symbol override!');
+ * @example
+ * // More complex
+ * logBox({ color: 'green', indent: 4, bufferLines: true })(
+ *   'This box is indented 4 spaces.',
+ *   'It also has buffer lines above and below the content.',
+ *   '',
+ *   { color: 'red', message: 'I\'m red in a green box!' },
+ *   { color: 'cyan', message: '...and I\'m cyan! '},
+ * );
  * @docgen_types
  * export type LogBoxConfig = {
  *   color: Color,
@@ -31,8 +40,7 @@ import { LogBoxConfig, LogBoxLine } from '../types';
  * @docgen_import
  * { logBox, LogBoxConfig, LogBoxLine, Color }
  */
-export const logBox = (config?: LogBoxConfig) => (message: string[] | string | LogBoxLine[]) : void => {
-  const lines = typeof message === 'string' ? [message] : message;
+export const logBox = (config?: LogBoxConfig) => (...lines: Array<string | LogBoxLine>) : void => {
   const indent = typeof config?.indent === 'number' ?  ' '.repeat(config.indent) : '';
   const padding = config?.padding !== undefined ? config.padding : 2;
   const color = config?.color !== undefined ? colorNoResetMap.get(config.color) : colorNoResetMap.get('cyan');
@@ -57,7 +65,7 @@ export const logBox = (config?: LogBoxConfig) => (message: string[] | string | L
   console.log(...output, reset);
 };
 
-const getTextWidth = (lines: string[] | LogBoxLine[]) : number => {
+const getTextWidth = (lines: Array<string | LogBoxLine>) : number => {
   let width = 0;
   lines.forEach(x => {
     if (typeof x === 'object' && x.message.length > width) {
