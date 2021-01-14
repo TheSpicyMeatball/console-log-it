@@ -30,15 +30,15 @@
 
 <h3>Boxes</h3>
 
-![Status Logs](images/boxes.png)
+![Status Logs](https://github.com/TheSpicyMeatball/console-log-it/tree/main/dist/images/boxes.png)
 
 <h3>Core &amp; Custom Statuses</h3>
 
-![Status Logs](images/status-logs.png)
+![Status Logs](https://github.com/TheSpicyMeatball/console-log-it/tree/main/dist/images/status-logs.png)
 
 <h3>Change Your Line Style</h3>
 
-![Status Logs](images/style.png)
+![Status Logs](https://github.com/TheSpicyMeatball/console-log-it/tree/main/dist/images/style.png)
 
 <h2>Interfaces &amp; Types</h2>
 <p>
