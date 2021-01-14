@@ -1,0 +1,37 @@
+{
+  "name": "console-log-it",
+  "version": "0.0.1",
+  "description": "Console log colors, boxes, and more for the browser and terminal",
+  "main": "lib/es5/index.js",
+  "module": "lib/es6/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TheSpicyMeatball/console-log-it.git"
+  },
+  "files": [
+    "lib",
+    "images",
+    "CHANGELOG.md",
+    "LICENSE",
+    "package.json",
+    "README.md"
+  ],
+  "keywords": [
+    "javascript",
+    "console",
+    "log",
+    "box",
+    "boxes",
+    "utils",
+    "utilities",
+    "debug",
+    "debugging",
+    "terminal"
+  ],
+  "author": "Michael Paravano",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TheSpicyMeatball/console-log-it/issues"
+  },
+  "homepage": "https://github.com/TheSpicyMeatball/console-log-it#readme"
+}

@@ -1,0 +1,1 @@
+![Status Logs](../../dist/images/logInfo.png)
