@@ -7,14 +7,12 @@
 
 > Console log colors, boxes, and more for the browser and terminal
 
-<p><b>Version:</b> 0.0.1</p>
+<p><b>Version:</b> 0.0.2</p>
+
+<h2>Summary of Utils</h2>
 
 > Click on each function name for details and examples
 
-
-
-<h2>Summary of Utils</h2>
-<p>For detailed information on each util, see below this table.</p>
 <table>
     <thead>
     <tr>
@@ -30,15 +28,15 @@
 
 <h3>Boxes</h3>
 
-![Status Logs](https://github.com/TheSpicyMeatball/console-log-it/tree/main/dist/images/boxes.png)
+![Status Logs](https://github.com/TheSpicyMeatball/console-log-it/blob/main/dist/images/boxes.png?raw=true)
 
 <h3>Core &amp; Custom Statuses</h3>
 
-![Status Logs](https://github.com/TheSpicyMeatball/console-log-it/tree/main/dist/images/status-logs.png)
+![Status Logs](https://github.com/TheSpicyMeatball/console-log-it/blob/main/dist/images/status-logs.png?raw=true)
 
 <h3>Change Your Line Style</h3>
 
-![Status Logs](https://github.com/TheSpicyMeatball/console-log-it/tree/main/dist/images/style.png)
+![Status Logs](https://github.com/TheSpicyMeatball/console-log-it/blob/main/dist/images/style.png?raw=true)
 
 <h2>Interfaces &amp; Types</h2>
 <p>
@@ -91,7 +89,7 @@ README.md -- this file
       └───index.js - 1.48 KB
     └───/logBox
       └───index.d.ts - 1.04 KB
-      └───index.js - 7.24 KB
+      └───index.js - 4.53 KB
     └───/logDebug
       └───index.d.ts - 519 Bytes
       └───index.js - 806 Bytes
@@ -124,7 +122,7 @@ README.md -- this file
       └───index.js - 324 Bytes
     └───/logBox
       └───index.d.ts - 1.04 KB
-      └───index.js - 7.1 KB
+      └───index.js - 4.39 KB
     └───/logDebug
       └───index.d.ts - 519 Bytes
       └───index.js - 676 Bytes

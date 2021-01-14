@@ -224,11 +224,6 @@ import ${isNotNilOrEmpty(util.docgen_import) ? util.docgen_import.value : `{ ${u
 };
 
 const generateSummaryTable = utils => (
-  '\n\n' +
-  `<h2>Summary of Utils</h2>` +
-  '\n' +
-  '<p>For detailed information on each util, see below this table.</p>' +
-  '\n' +
   `<table>
     <thead>
     <tr>
