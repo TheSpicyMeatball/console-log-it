@@ -1,3 +1,6 @@
+## [1.0.0] - 2021-01-14
+- Full release
+
 ## [0.0.4] - 2021-01-14
 - Added browser support
 

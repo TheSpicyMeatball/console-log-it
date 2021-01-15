@@ -1,6 +1,6 @@
 {
   "name": "console-log-it",
-  "version": "0.0.4",
+  "version": "1.0.0",
   "description": "Console log colors, boxes, and more for the browser and terminal",
   "main": "lib/es5/index.js",
   "module": "lib/es6/index.js",

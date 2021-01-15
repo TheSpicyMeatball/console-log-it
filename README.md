@@ -7,7 +7,7 @@
 
 > Console log colors, boxes, and more for the browser and terminal
 
-<p><b>Version:</b> 0.0.4</p>
+<p><b>Version:</b> 1.0.0</p>
 
 <h2>Summary of Utils</h2>
 
