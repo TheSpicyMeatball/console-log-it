@@ -1,1 +1,1 @@
-![Status Logs](../../dist/images/logError.png)
+![Status Logs](../../images/logError.png)

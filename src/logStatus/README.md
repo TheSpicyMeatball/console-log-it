@@ -41,7 +41,7 @@ deprecated('This is a custom status tag to tell you something is deprecated');
 
 <h4>Available Colors</h4>
 
-![Status Logs](../../dist/images/custom-status.png)
+![Status Logs](../../images/custom-status.png)
 
 
 

@@ -54,7 +54,7 @@ logBox({ color: 'green', indent: 4, bufferLines: true })(
 
 
 
-![Status Logs](../../dist/images/boxes.png)
+![Status Logs](../../images/boxes.png)
 
 
 

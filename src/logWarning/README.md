@@ -34,7 +34,7 @@ warn('This is a warning!');
 
 
 
-![Status Logs](../../dist/images/logWarning.png)
+![Status Logs](../../images/logWarning.png)
 
 
 
