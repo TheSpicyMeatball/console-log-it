@@ -1,3 +1,6 @@
+## [0.0.4] - 2021-01-14
+- Added browser support
+
 ## [0.0.3] - 2021-01-14
 - Changed logBox to accept rest args for lines instead of string or array
 - Updated documentation

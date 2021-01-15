@@ -7,7 +7,7 @@
 
 > Console log colors, boxes, and more for the browser and terminal
 
-<p><b>Version:</b> 0.0.3</p>
+<p><b>Version:</b> 0.0.4</p>
 
 <h2>Summary of Utils</h2>
 
@@ -28,15 +28,15 @@
 
 <h3>Boxes</h3>
 
-![Status Logs](https://github.com/TheSpicyMeatball/console-log-it/blob/main/dist/images/boxes.png?raw=true)
+![Status Logs](https://github.com/TheSpicyMeatball/console-log-it/blob/main/boxes.png?raw=true)
 
 <h3>Core &amp; Custom Statuses</h3>
 
-![Status Logs](https://github.com/TheSpicyMeatball/console-log-it/blob/main/dist/images/status-logs.png?raw=true)
+![Status Logs](https://github.com/TheSpicyMeatball/console-log-it/blob/main/status-logs.png?raw=true)
 
 <h3>Change Your Line Style</h3>
 
-![Status Logs](https://github.com/TheSpicyMeatball/console-log-it/blob/main/dist/images/style.png?raw=true)
+![Status Logs](https://github.com/TheSpicyMeatball/console-log-it/blob/main/style.png?raw=true)
 
 <h2>Interfaces &amp; Types</h2>
 <p>
@@ -89,7 +89,7 @@ README.md -- this file
       └───index.js - 1.48 KB
     └───/logBox
       └───index.d.ts - 1.33 KB
-      └───index.js - 4.87 KB
+      └───index.js - 6.07 KB
     └───/logDebug
       └───index.d.ts - 519 Bytes
       └───index.js - 806 Bytes
@@ -101,10 +101,10 @@ README.md -- this file
       └───index.js - 1.12 KB
     └───/logStatus
       └───index.d.ts - 760 Bytes
-      └───index.js - 1.61 KB
+      └───index.js - 2.09 KB
     └───/logStyle
       └───index.d.ts - 926 Bytes
-      └───index.js - 1.63 KB
+      └───index.js - 2.03 KB
     └───/logSuccess
       └───index.d.ts - 548 Bytes
       └───index.js - 1.12 KB
@@ -115,14 +115,14 @@ README.md -- this file
       └───index.d.ts - 789 Bytes
       └───index.js - 79 Bytes
     └───/_private
-      └───index.d.ts - 398 Bytes
-      └───index.js - 2.14 KB
+      └───index.d.ts - 561 Bytes
+      └───index.js - 3.26 KB
   └───/es6
       └───index.d.ts - 430 Bytes
       └───index.js - 324 Bytes
     └───/logBox
       └───index.d.ts - 1.33 KB
-      └───index.js - 4.73 KB
+      └───index.js - 5.84 KB
     └───/logDebug
       └───index.d.ts - 519 Bytes
       └───index.js - 676 Bytes
@@ -134,10 +134,10 @@ README.md -- this file
       └───index.js - 1002 Bytes
     └───/logStatus
       └───index.d.ts - 760 Bytes
-      └───index.js - 1.47 KB
+      └───index.js - 1.95 KB
     └───/logStyle
       └───index.d.ts - 926 Bytes
-      └───index.js - 1.49 KB
+      └───index.js - 1.91 KB
     └───/logSuccess
       └───index.d.ts - 548 Bytes
       └───index.js - 994 Bytes
@@ -148,8 +148,8 @@ README.md -- this file
       └───index.d.ts - 789 Bytes
       └───index.js - 12 Bytes
     └───/_private
-      └───index.d.ts - 398 Bytes
-      └───index.js - 1.91 KB
+      └───index.d.ts - 561 Bytes
+      └───index.js - 2.95 KB
 ```
 
 <a href="#license"></a>

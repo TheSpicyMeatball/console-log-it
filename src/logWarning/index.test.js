@@ -4,17 +4,24 @@ const { logWarning } = require('../../dist/lib/es5/index');
 const { reset, tagColorMap } = require('../../dist/lib/es5/_private/index');
 
 describe('warning', () => {
-  test('basic', () => {
+  beforeAll(() => {    
     console.log = jest.fn();
+    jest.spyOn(global, "window", "get").mockImplementation(() => ({
+      document: undefined,
+    }));
+  });
+
+  afterAll(() => {    
+    jest.clearAllMocks();
+  });
+
+  test('basic', () => {
     logWarning()('This is a warning!');
     expect(console.log).lastCalledWith(tagColorMap.get('yellow'), 'Warning', reset, 'This is a warning!');
-    jest.clearAllMocks();
   });
   
   test('custom tag message', () => {
-    console.log = jest.fn();
     logWarning({ tagMessage: 'CUSTOM' })('This is a warning!');
     expect(console.log).lastCalledWith(tagColorMap.get('yellow'), 'CUSTOM', reset, 'This is a warning!');
-    jest.clearAllMocks();
   });
 });

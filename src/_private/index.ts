@@ -63,3 +63,35 @@ export const tagColorMap = new Map<string, string>([
   ['cyan', '\x1b[46m\x1b[30m'],
   ['white', '\x1b[47m\x1b[30m'],
 ]);
+
+export const webTagColorMap = new Map<string, string>([
+  ['black', 'background-color: #000000; color: #ffffff;'],
+  ['red', 'background-color: #ff6666; color: #ffffff;'],
+  ['green', 'background-color: #99e699; color: #000000;'],
+  ['yellow', 'background-color: #ffdb4d; color: #000000;'],
+  ['blue', 'background-color: #65aee6; color: #ffffff;'],
+  ['magenta', 'background-color: #e2baee; color: #ffffff;'],
+  ['cyan', 'background-color: #c8f9f6; color: #000000;'],
+  ['white', 'background-color: #ffffff; color: #000000;'],
+]);
+
+export const webColorMap = new Map<string, string>([
+  ['black', 'color: #000000;'],
+  ['red', 'color: #ff6666;'],
+  ['green', 'color: #99e699;'],
+  ['yellow', 'color: #ffdb4d;'],
+  ['blue', 'color: #65aee6;'],
+  ['magenta', 'color: #e2baee;'],
+  ['cyan', 'color: #c8f9f6;'],
+  ['white', 'color: #ffffff;'],
+]);
+
+export const isBrowser = () : boolean => {
+  try {
+    if (window && window.document) return true;
+  } catch (error) {
+    // do nothing  
+  }
+
+  return false;
+};

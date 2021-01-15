@@ -1,4 +1,4 @@
-import { colorMap, backgroundColorMap, styleMap, reset } from '../_private';
+import { isBrowser, colorMap, backgroundColorMap, styleMap, reset, webColorMap, webTagColorMap } from '../_private';
 import { BackgroundColor, Color, Style } from '../types';
 
 /**
@@ -19,6 +19,13 @@ import { BackgroundColor, Color, Style } from '../types';
  * export type Style = 'blink' | 'bright' | 'dim' | 'hidden' | 'reverse' | 'reset' | 'underscore';
  */
 export const logStyle = (color: Color | BackgroundColor | Style) => (...args: unknown[]) : void => {
+  if (isBrowser()) {
+    const reset = 'background-color: inherit; color:inherit; padding-left: inherit; padding-right: inherit; margin-right: inherit;';
+    const _color = webColorMap.get(color) || webTagColorMap.get(color.replace(/^bg/, '').toLocaleLowerCase()) || reset;
+    console.log('%c' + args.join('') + '%c', _color, reset);
+    return;
+  }
+
   const _color = colorMap.get(color) || backgroundColorMap.get(color) || styleMap.get(color) || reset;
   console.log(_color, ...args);
 };
