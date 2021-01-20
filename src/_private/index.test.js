@@ -12,6 +12,7 @@ describe('value', () => {
     expect(backgroundColorNoResetMap.get('magenta')).toBe('\x1b[45m\x1b[37m');
     expect(backgroundColorNoResetMap.get('cyan')).toBe('\x1b[46m\x1b[37m');
     expect(backgroundColorNoResetMap.get('white')).toBe('\x1b[47m\x1b[0m');
+    expect(backgroundColorNoResetMap.get('gray')).toBe('\x1b[100m\x1b[37m');
   });
   
   test('backgroundColors', () => {
@@ -23,6 +24,7 @@ describe('value', () => {
     expect(backgroundColorMap.get('bgMagenta')).toBe('\x1b[45m\x1b[37m%s\x1b[0m');
     expect(backgroundColorMap.get('bgCyan')).toBe('\x1b[46m\x1b[37m%s\x1b[0m');
     expect(backgroundColorMap.get('bgWhite')).toBe('\x1b[47m\x1b[30m%s\x1b[0m');
+    expect(backgroundColorMap.get('bgGray')).toBe('\x1b[100m\x1b[37m%s\x1b[0m');
   });
   
   test('colorsNoReset', () => {

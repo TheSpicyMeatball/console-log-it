@@ -27,7 +27,7 @@ const docgenTags = [
 ];
 
 const index = async () => {
-  logStyle('bgWhite')(' Generating README.md ');
+  logStyle('bgGray')(' Generating README.md ');
   console.log();
   
   const root = join(__dirname, '..');

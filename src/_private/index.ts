@@ -7,6 +7,7 @@ export const backgroundColorMap = new Map<string, string>([
   ['bgMagenta', '\x1b[45m\x1b[37m%s\x1b[0m'],
   ['bgCyan', '\x1b[46m\x1b[37m%s\x1b[0m'],
   ['bgWhite', '\x1b[47m\x1b[30m%s\x1b[0m'],
+  ['bgGray', '\x1b[100m\x1b[37m%s\x1b[0m'],
 ]);
 
 export const backgroundColorNoResetMap = new Map<string, string>([
@@ -18,6 +19,7 @@ export const backgroundColorNoResetMap = new Map<string, string>([
   ['magenta', '\x1b[45m\x1b[37m'],
   ['cyan', '\x1b[46m\x1b[37m'],
   ['white', '\x1b[47m\x1b[0m'],
+  ['gray', '\x1b[100m\x1b[37m'],
 ]);
 
 export const colorMap = new Map<string, string>([
@@ -62,6 +64,7 @@ export const tagColorMap = new Map<string, string>([
   ['magenta', '\x1b[45m\x1b[37m'],
   ['cyan', '\x1b[46m\x1b[30m'],
   ['white', '\x1b[47m\x1b[30m'],
+  ['gray', '\x1b[100m\x1b[37m'],
 ]);
 
 export const webTagColorMap = new Map<string, string>([
@@ -73,6 +76,7 @@ export const webTagColorMap = new Map<string, string>([
   ['magenta', 'background-color: #e2baee; color: #ffffff;'],
   ['cyan', 'background-color: #c8f9f6; color: #000000;'],
   ['white', 'background-color: #ffffff; color: #000000;'],
+  ['gray', 'background-color: #cccccc; color: #000000;'],
 ]);
 
 export const webColorMap = new Map<string, string>([

@@ -1,3 +1,6 @@
+## [1.1.0] - 2021-01-20
+- Added background color gray
+
 ## [1.0.0] - 2021-01-14
 - Full release
 

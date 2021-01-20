@@ -7,7 +7,7 @@
 
 > Console log colors, boxes, and more for the browser and terminal
 
-<p><b>Version:</b> 1.0.0</p>
+<p><b>Version:</b> 1.1.0</p>
 
 <h2>Summary of Utils</h2>
 
@@ -46,7 +46,7 @@
 
 ```
 export type Color = 'black' | 'red' | 'green' | 'yellow' | 'blue' | 'magenta' | 'cyan' | 'white';
-export type BackgroundColor = 'bgBlack' | 'bgRed' | 'bgGreen' | 'bgYellow' | 'bgBlue' | 'bgMagenta' | 'bgCyan' | 'bgWhite';
+export type BackgroundColor = 'bgBlack' | 'bgRed' | 'bgGreen' | 'bgYellow' | 'bgBlue' | 'bgMagenta' | 'bgCyan' | 'bgWhite' | 'bgGray';
 export type Style = 'blink' | 'bright' | 'dim' | 'hidden' | 'reverse' | 'reset' | 'underscore';
 
 export type LogBoxConfig = {
@@ -112,11 +112,11 @@ README.md -- this file
       └───index.d.ts - 557 Bytes
       └───index.js - 1.13 KB
     └───/types
-      └───index.d.ts - 789 Bytes
+      └───index.d.ts - 800 Bytes
       └───index.js - 79 Bytes
     └───/_private
       └───index.d.ts - 561 Bytes
-      └───index.js - 3.26 KB
+      └───index.js - 3.43 KB
   └───/es6
       └───index.d.ts - 430 Bytes
       └───index.js - 324 Bytes
@@ -145,11 +145,11 @@ README.md -- this file
       └───index.d.ts - 557 Bytes
       └───index.js - 1004 Bytes
     └───/types
-      └───index.d.ts - 789 Bytes
+      └───index.d.ts - 800 Bytes
       └───index.js - 12 Bytes
     └───/_private
       └───index.d.ts - 561 Bytes
-      └───index.js - 2.95 KB
+      └───index.js - 3.12 KB
 ```
 
 <a href="#license"></a>
